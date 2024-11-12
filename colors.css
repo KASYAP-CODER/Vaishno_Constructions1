@@ -1,0 +1,93 @@
+.back {
+    background-color: red;
+    text-align: center;
+}
+
+.background-front {
+    background-image: url("https://res.cloudinary.com/drzdid4ru/image/upload/v1730910816/freedomplaza-skyline-zoomin-negativ_xrmve7.jpg");
+    width: 100%;
+    /* Makes width responsive to container */
+    height: 100vh;
+    /* Full viewport height, or adjust as needed */
+    background-size: cover;
+    /* Ensures image covers container */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents image repetition */
+}
+
+.start {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    padding: 120px;
+    color: blue;
+}
+
+.image {}
+
+.image2 {
+    background-color: white;
+}
+
+.button1 {
+    text-align: center;
+}
+
+.kasyap {
+    text-align: center;
+}
+
+.intro {
+    font-family: cursive;
+}
+
+.responsive-text {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+@media (min-width: 768px) {
+    .responsive-text {
+        font-size: 18px;
+    }
+}
+
+.para {
+    font-family: monospace;
+
+}
+
+.para3 {
+    font-family: cursive;
+    color: yellow;
+}
+
+.para2 {
+    background-color: yello;
+    font-family: monospace;
+    color: blue;
+
+}
+
+.para4 {
+    font-family: fantasy;
+    background-color: magenta;
+    border-width: 10px;
+    color: black;
+}
+
+.background-image {
+    background-image: url(https://media.istockphoto.com/id/1937173368/photo/aged-concrete-white-wall-texture-grunge-old-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=7XUqgkaB378eLhAlx4qy_WF9BIuRxJHJk-Gq-GYbLBw=);
+}
+
+.background-image2 {
+    background-image: url(https://media.istockphoto.com/id/2098364973/photo/grunge-wooden-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=CyLdh_VEZEVB1N4l4bFkEAlfSf1OrrLTYYTwk-33ctI=);
+}
+
+.kasyap {
+    background-color: white;
+}
